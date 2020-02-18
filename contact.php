@@ -39,21 +39,45 @@
     </header>
     <section>
     <?php
-    if(isset($_POST['nom']))
-    {
-       echo "<div>";
-       $name = $_POST["nom"];
-       echo "</br>";
-       echo "Nom :</br></br>", $name;
-       echo "</div>";
-    }    
+      if(isset($_POST['nom']))
+      {
+        echo "<div>";
+        $name = $_POST["nom"];
+        echo "</br>";
+        echo "Nom :", $name;
+        echo "</br></br></div>";
+      }    
+      if(isset($_POST['prenom']))
+      {
+        echo "<div>";
+        $name = $_POST["prenom"];
+        echo "</br>";
+        echo "Prénom :", $name;
+        echo "</br></br></div>";
+      }    
+      if (!empty($_POST["email"])) {
+        echo "Yes, mail is set";    
+        $to      = $_POST["email"];
+        $subject = 'the subject';
+        $message = 'hello' . $to . 'your registration was successful!';
+        $headers = array(
+          'From' => 'webmaster@example.com',
+          'Reply-To' => 'webmaster@example.com',
+          'X-Mailer' => 'PHP/' . phpversion()
+        );
+
+        mail($to, $subject, $message, $headers);
+      } else {  
+          echo "No, mail is not set";
+      }
+
     ?>
       <p></p>
       <form method="post" action="#" name="contact">
         <p>IDENTITE</p>
         <p>Nom : <input type="text" name="nom"></p>
         <p>Prénom : <input type="text" name="prenom"></p>
-        <p>E-mail : <input type="text" name="age"></p>
+        <p>E-mail : <input type="text" name="email"></p>
         <p>Telephone : <input type="text" name="tel"></p>
         <p>Ville : <input type="text" name="ville"></p>
         <p>Pays : <input type="text" name="pays"></p>
