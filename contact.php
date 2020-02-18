@@ -39,14 +39,28 @@
     </header>
     <section>
     <?php
-    if(isset($_POST['nom']))
-    {
-       echo "<div>";
-       $name = $_POST["nom"];
-       echo "</br>";
-       echo "Nom :</br></br>", $name;
-       echo "</div>";
-    }    
+      if(isset($_POST['nom']))
+      {
+        echo "<div>";
+        $name = $_POST["nom"];
+        echo "</br>";
+        echo "Nom :", $name;
+        echo "</br></br></div>";
+      }    
+      if(isset($_POST['prenom']))
+      {
+        echo "<div>";
+        $name = $_POST["prenom"];
+        echo "</br>";
+        echo "Prénom :", $name;
+        echo "</br></br></div>";
+      }    
+      if (!empty($_POST["email"])) {
+        echo "Yes, mail is set";    
+    } else {  
+        echo "No, mail is not set";
+    }
+
     ?>
       <p></p>
       <form method="post" action="#" name="contact">
