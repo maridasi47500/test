@@ -6,13 +6,13 @@ Ce repo contient 4 pages principales
 1 ---------> INDEX 
 
 
-2 ---------> Map
+2 ---------> Carte
 
 
-3 ---------> Trainings
+3 ---------> Formations
 
 
-4 ---------> Trainingd
+4 ---------> FAQ
 
 
 5 ---------> Contact
