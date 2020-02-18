@@ -57,6 +57,16 @@
       }    
       if (!empty($_POST["email"])) {
         echo "Yes, mail is set";    
+        $to      = $_POST["email"];
+        $subject = 'the subject';
+        $message = 'hello' . $to . 'your registration was successful!';
+        $headers = array(
+          'From' => 'webmaster@example.com',
+          'Reply-To' => 'webmaster@example.com',
+          'X-Mailer' => 'PHP/' . phpversion()
+        );
+
+        mail($to, $subject, $message, $headers);
       } else {  
           echo "No, mail is not set";
       }
