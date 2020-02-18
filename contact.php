@@ -57,9 +57,9 @@
       }    
       if (!empty($_POST["email"])) {
         echo "Yes, mail is set";    
-    } else {  
-        echo "No, mail is not set";
-    }
+      } else {  
+          echo "No, mail is not set";
+      }
 
     ?>
       <p></p>
@@ -67,7 +67,7 @@
         <p>IDENTITE</p>
         <p>Nom : <input type="text" name="nom"></p>
         <p>Prénom : <input type="text" name="prenom"></p>
-        <p>E-mail : <input type="text" name="age"></p>
+        <p>E-mail : <input type="text" name="email"></p>
         <p>Telephone : <input type="text" name="tel"></p>
         <p>Ville : <input type="text" name="ville"></p>
         <p>Pays : <input type="text" name="pays"></p>
