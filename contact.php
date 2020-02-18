@@ -38,7 +38,45 @@
       </nav>
     </header>
     <section>
-some tyext
+    <?php
+    if(isset($_POST['nom']))
+    {
+       echo "<div>";
+       $name = $_POST["nom"];
+       echo "</br>";
+       echo "Nom :</br></br>", $name;
+       echo "</div>";
+    }    
+    ?>
+      <p></p>
+      <form method="post" action="#" name="contact">
+        <p>IDENTITE</p>
+        <p>Nom : <input type="text" name="nom"></p>
+        <p>Prénom : <input type="text" name="prenom"></p>
+        <p>E-mail : <input type="text" name="age"></p>
+        <p>Telephone : <input type="text" name="tel"></p>
+        <p>Ville : <input type="text" name="ville"></p>
+        <p>Pays : <input type="text" name="pays"></p>
+        <p>Compétences</p>
+        <p>HTML : <input type="checkbox" name="html"></p>
+        <p>CSS : <input type="checkbox" name="css"></p>
+        <p>JS : <input type="checkbox" name="js"></p>
+        <p>PHP : <input type="checkbox" name="php"></p>
+        <div>
+          <p>Je suis :</p>
+          <div>
+            Débutant : <input type="radio" name="niveau" value="debutant">
+          </div>
+          <div>
+            Confirmé : <input type="radio" name="niveau" value="confirme">
+          </div>
+          <div>
+
+            Expert : <input type="radio" name="niveau" value="expert">
+          </div>
+          <input name="envoyer" type="submit">
+        </div>
+      </form>
     </section>
     <footer>
       <div style="background-color:#515151;" class='page-section footer-section bg-grey-800'>
