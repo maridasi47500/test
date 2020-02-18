@@ -1,9 +1,9 @@
 # Site pour le GRETA 
 
-This repo contains five main pages
+Ce repo contient 4 pages principales
 
 
-1 ---------> INDEX (is not a page)
+1 ---------> INDEX 
 
 
 2 ---------> Map
@@ -20,26 +20,26 @@ This repo contains five main pages
 
 
 
-The website contains several forms, among which a form allowing the user to enter personal data and skills.
+Le site contient quelques formulaires, parmi lesquels un formulaire permettant à l'utilisateur de rentrer ses données personnelles et ses compétences.
 
 
-Example of a form present in the repo: 
+Exemple d'un formulaire présent dans le dépôt : 
 
-Identity (input text fields)
-- Last name
-- First name
-- Email
-- Telephone
-- City
-- Country
+Identité (champs de texte)
+- Nom
+- Prénom
+- E-mail
+- Téléphone
+- Ville
+- Pays
 
-Skills (checkboxes)
+Compétences (cases à cocher)
 HTML
 CSS
 JS
 PHP
 
-I am : (radio buttons)
-- a beginner,
-- a confirmed developer,
-- an expert developer
+Je suis : (boutons radio)
+- débutant
+- confirmé
+- expert
