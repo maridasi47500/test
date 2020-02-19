@@ -21,7 +21,7 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="formations.html">Formations</a>
             </li>
             <li class="nav-item">
@@ -33,7 +33,7 @@
             <li class="nav-item active">
               <a class="nav-link" href="participants.html">Participants</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>
             </li>
           </ul>
@@ -41,69 +41,46 @@
       </nav>
     </header>
     <section>
-    <?php
-      if(isset($_POST['nom']))
-      {
-        echo "<div>";
-        $name = $_POST["nom"];
-        echo "</br>";
-        echo "Nom :", $name;
-        echo "</br></br></div>";
-      }    
-      if(isset($_POST['prenom']))
-      {
-        echo "<div>";
-        $name = $_POST["prenom"];
-        echo "</br>";
-        echo "Prénom :", $name;
-        echo "</br></br></div>";
-      }    
-      if (!empty($_POST["email"])) {
-        echo "Yes, mail is set";    
-        $to      = $_POST["email"];
-        $subject = 'the subject';
-        $message = 'hello' . $to . 'your registration was successful!';
-        $headers = array(
-          'From' => 'webmaster@example.com',
-          'Reply-To' => 'webmaster@example.com',
-          'X-Mailer' => 'PHP/' . phpversion()
-        );
-
-        mail($to, $subject, $message, $headers);
-      } else {  
-          echo "No, mail is not set";
-      }
-
-    ?>
-      <p></p>
-      <form method="post" action="#" name="contact">
-        <p>IDENTITE</p>
-        <p>Nom : <input type="text" name="nom"></p>
-        <p>Prénom : <input type="text" name="prenom"></p>
-        <p>E-mail : <input type="text" name="email"></p>
-        <p>Telephone : <input type="text" name="tel"></p>
-        <p>Ville : <input type="text" name="ville"></p>
-        <p>Pays : <input type="text" name="pays"></p>
-        <p>Compétences</p>
-        <p>HTML : <input type="checkbox" name="html"></p>
-        <p>CSS : <input type="checkbox" name="css"></p>
-        <p>JS : <input type="checkbox" name="js"></p>
-        <p>PHP : <input type="checkbox" name="php"></p>
-        <div>
-          <p>Je suis :</p>
-          <div>
-            Débutant : <input type="radio" name="niveau" value="debutant">
-          </div>
-          <div>
-            Confirmé : <input type="radio" name="niveau" value="confirme">
-          </div>
-          <div>
-
-            Expert : <input type="radio" name="niveau" value="expert">
-          </div>
-          <input name="envoyer" type="submit">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Philippe Hénaff</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-      </form>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tropi-Mango</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Marie</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Greutz</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Alexandre Hoffmann</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     </section>
     <footer>
       <div style="background-color:#515151;" class='page-section footer-section bg-grey-800'>

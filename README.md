@@ -18,6 +18,9 @@ Ce repo contient 4 pages principales
 5 ---------> Contact
 
 
+6 ---------> Participants
+
+
 
 
 Le site contient quelques formulaires, parmi lesquels un formulaire permettant à l'utilisateur de rentrer ses données personnelles et ses compétences.
