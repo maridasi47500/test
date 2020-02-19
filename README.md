@@ -1,4 +1,5 @@
 # Site pour le GRETA 
+Pour envoyer des emails je devrais utiliser : PHP Mail
 
 Ce repo contient 4 pages principales
 
