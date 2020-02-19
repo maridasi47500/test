@@ -42,25 +42,40 @@
     </header>
     <section>
       <div>
+      <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Lien vers la page perso</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td scope="col">Name</td>
         <?php
             if(isset($_POST['name']))
             {
-              echo "<div>";
               $name = $_POST["name"];
-              echo "</br>";
-              echo "Nom :</br></br>", $name;
-              echo "</div>";
+              echo "<td>" . $name . "</td>";
+              echo "</tr>";
+
             }    
             if(isset($_POST['languages']))
             {
-              echo "<div>";
+              echo "<tr>";
+
+              echo "<tr scope=\"col\">Langues</tr>";
               $lang = $_POST["languages"];
-              echo "</br>";
-              echo "Langues :</br></br>", $lang;
-              echo "</div>";
+              echo "Langues :<tr>" . $lang . "</tr>";
             }    
 
         ?>
+      </tr>
+
+  </tbody>
+</table>
+
         <a href="participants.php">Retour à la liste des participants</a>
       </div>
     </section>
