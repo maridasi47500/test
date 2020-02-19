@@ -46,7 +46,7 @@
         <div class="card-body">
           <h5 class="card-title">Philippe Hénaff</h5>
           <p class="card-text">Languages: CSS, JS, HTML, PHP, JAVA.</p>
-          <form action"infos.php" method="post">
+          <form action="infos.php" method="post">
             <input type="hidden" value="philippe henaff" name="name">
             <input type="submit" value="consulter sa fiche" name="submit">
           </form>
@@ -57,7 +57,7 @@
         <div class="card-body">
           <h5 class="card-title">Tropi-Mango</h5>
           <p class="card-text">Languages: CSS, JS, HTML, PHP, JAVA.</p>
-          <form action"infos.php" method="post">
+          <form action="infos.php" method="post">
             <input type="hidden" value="tropi-mango" name="name">
             <input type="submit" value="consulter sa fiche" name="submit">
           </form>
@@ -68,7 +68,7 @@
         <div class="card-body">
           <h5 class="card-title">Marie</h5>
           <p class="card-text">Languages: CSS, JS, HTML, PHP, JAVA.</p>
-          <form action"infos.php" method="post">
+          <form action="infos.php" method="post">
             <input type="hidden" value="Marie" name="name">
             <input type="submit" value="consulter sa fiche" name="submit">
           </form>
@@ -79,7 +79,7 @@
         <div class="card-body">
           <h5 class="card-title">Greutz</h5>
           <p class="card-text">Languages: CSS, JS, HTML, PHP, JAVA.</p>
-          <form action"infos.php" method="post">
+          <form action="infos.php" method="post">
             <input type="hidden" value="Greutz" name="name">
             <input type="submit" value="consulter sa fiche" name="submit">
           </form>
@@ -90,7 +90,7 @@
         <div class="card-body">
           <h5 class="card-title">Alexandre Hoffmann</h5>
           <p class="card-text">Languages: CSS, JS, HTML, PHP, JAVA.</p>
-          <form action"infos.php" method="post">
+          <form action="infos.php" method="post">
             <input type="hidden" value="Alexandre Hoffmann" name="name">
             <input type="submit" value="consulter sa fiche" name="submit">
           </form>
