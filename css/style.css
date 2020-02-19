@@ -1,3 +1,12 @@
 .media-body {
     border:solid black 1px;
 }
+.formation-choisie {
+    color:red;
+}
+.autre-formation {
+    color:blue;
+}
+.col-sm {
+    border: solid 1px #363333;
+}
