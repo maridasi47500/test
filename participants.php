@@ -41,61 +41,74 @@
       </nav>
     </header>
     <section>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Philippe Hénaff</h5>
-          <p class="card-text">Languages: CSS, JS, HTML, PHP, JAVA.</p>
-          <form action="infos.php" method="post">
+    <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Lien vers la page perso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Philippe Hénaff</td>
+      <td>          <form action="infos.php" method="post">
             <input type="hidden" value="philippe henaff" name="name">
+            <input type="hidden" value="CSS,JS,HTML,PHP,JAVA" name="languages">
+
             <input type="submit" value="consulter sa fiche" name="submit">
           </form>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Tropi-Mango</h5>
-          <p class="card-text">Languages: CSS, JS, HTML, PHP, JAVA.</p>
-          <form action="infos.php" method="post">
+</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Tropi-Mango</td>
+      <td>          <form action="infos.php" method="post">
             <input type="hidden" value="tropi-mango" name="name">
+            <input type="hidden" value="CSS,JS,HTML,PHP,JAVA" name="languages">
+
             <input type="submit" value="consulter sa fiche" name="submit">
           </form>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Marie</h5>
-          <p class="card-text">Languages: CSS, JS, HTML, PHP, JAVA.</p>
-          <form action="infos.php" method="post">
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Marie</td>
+      <td><form action="infos.php" method="post">
             <input type="hidden" value="Marie" name="name">
+            <input type="hidden" value="CSS,JS,HTML,PHP,JAVA" name="languages">
             <input type="submit" value="consulter sa fiche" name="submit">
-          </form>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Greutz</h5>
-          <p class="card-text">Languages: CSS, JS, HTML, PHP, JAVA.</p>
-          <form action="infos.php" method="post">
+          </form></td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Greutz</td>
+      <td>          <form action="infos.php" method="post">
             <input type="hidden" value="Greutz" name="name">
+            <input type="hidden" value="CSS,JS,HTML,PHP,JAVA" name="languages">
             <input type="submit" value="consulter sa fiche" name="submit">
           </form>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Alexandre Hoffmann</h5>
-          <p class="card-text">Languages: CSS, JS, HTML, PHP, JAVA.</p>
-          <form action="infos.php" method="post">
+</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Alexandre Hoffmann</td>
+      <td>          <form action="infos.php" method="post">
             <input type="hidden" value="Alexandre Hoffmann" name="name">
+            <input type="hidden" value="CSS,JS,HTML,PHP,JAVA" name="languages">
             <input type="submit" value="consulter sa fiche" name="submit">
           </form>
-        </div>
-      </div>
+</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+    </tr>
+
+  </tbody>
+</table>
     </section>
     <footer>
       <div style="background-color:#515151;" class='page-section footer-section bg-grey-800'>

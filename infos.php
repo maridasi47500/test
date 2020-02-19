@@ -51,6 +51,15 @@
               echo "Nom :</br></br>", $name;
               echo "</div>";
             }    
+            if(isset($_POST['languages']))
+            {
+              echo "<div>";
+              $lang = $_POST["languages"];
+              echo "</br>";
+              echo "Langues :</br></br>", $lang;
+              echo "</div>";
+            }    
+
         ?>
         <a href="participants.php">Retour à la liste des participants</a>
       </div>
