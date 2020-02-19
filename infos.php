@@ -64,9 +64,9 @@
             {
               echo "<tr>";
 
-              echo "<tr scope=\"col\">Langues</tr>";
+              echo "<td scope=\"col\">Langues</td>";
               $lang = $_POST["languages"];
-              echo "Langues :<tr>" . $lang . "</tr>";
+              echo "Langues :<td>" . $lang . "</td>";
             }    
 
         ?>
