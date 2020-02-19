@@ -45,7 +45,6 @@
       <table class="table">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">#</th>
       <th scope="col">Nom</th>
       <th scope="col">Lien vers la page perso</th>
     </tr>
