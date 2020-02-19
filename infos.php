@@ -46,7 +46,7 @@
   <thead class="thead-dark">
     <tr>
       <th scope="col">Nom</th>
-      <th scope="col">Lien vers la page perso</th>
+      <th scope="col">Valeur</th>
     </tr>
   </thead>
   <tbody>
