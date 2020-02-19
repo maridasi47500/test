@@ -38,51 +38,40 @@
       </nav>
     </header>
     <section>
-    <div class="container">
-    <div class="row">
-        <h2>Contacte nous ! </h2>
-    </div>
-    <div class="row">
-        <div class=" col-md-10">
-            <form method="post" id="contact" name="test" enctype="multipart/form-data" action="vue/envoi.php">
-                <div class="form-group">
-                    <label for="validate-text">Nom</label>
-                    <div class="input-group">
-                        <input type="text" class="form-control"  id="nom" name="nom" tabindex="1" required/>
-                        <span class="input-group-addon danger"><span class="glyphicon glyphicon-remove"></span></span>
-                    </div>
-                </div>
- 
-                <div class="form-group">
-                    <label for="validate-email">Email</label>
-                    <div class="input-group">
-                        <input type="email" class="form-control"  id="email" name="email" tabindex="2" required/>
-                        <span class="input-group-addon danger"><span class="glyphicon glyphicon-remove"></span></span>
-                    </div>
-                </div>
- 
-                <div class="form-group">
-                    <label for="validate-text">Objet</label>
-                    <div class="input-group">
-                        <input type="text" class="form-control" id="objet" name="objet" tabindex="3" required/>
-                        <span class="input-group-addon danger"><span class="glyphicon glyphicon-remove"></span></span>
-                    </div>
-                </div>
- 
-                <div class="form-group">
-                    <label for="validate-text">Message</label>
-                    <div class="input-group">
-                        <!--input type="text" class="form-control" id="objet" name="objet" tabindex="3" required/-->
-                        <textarea id="validate-text" class="form-control" name="message" tabindex="4" cols="30" rows="8"></textarea>
-                        <span class="input-group-addon primary"></span>
-                    </div>
-                </div>
- 
-                <input class="btn btn-primary col-xs-12" name="envoi" value="Envoyer le message" type="submit" >
-            </form>
-        </div>
-    </div>
-</div>
+    <?php
+      if(isset($_POST['nom']))
+      {
+        echo "<div>";
+        $name = $_POST["nom"];
+        echo "</br>";
+        echo "Nom :", $name;
+        echo "</br></br></div>";
+      }    
+      if(isset($_POST['prenom']))
+      {
+        echo "<div>";
+        $name = $_POST["prenom"];
+        echo "</br>";
+        echo "Prénom :", $name;
+        echo "</br></br></div>";
+      }    
+      if (!empty($_POST["email"])) {
+        echo "Yes, mail is set";    
+        $to      = $_POST["email"];
+        $subject = 'the subject';
+        $message = 'hello' . $to . 'your registration was successful!';
+        $headers = array(
+          'From' => 'webmaster@example.com',
+          'Reply-To' => 'webmaster@example.com',
+          'X-Mailer' => 'PHP/' . phpversion()
+        );
+
+        mail($to, $subject, $message, $headers);
+      } else {  
+          echo "No, mail is not set";
+      }
+
+    ?>
       <p></p>
       <form method="post" action="#" name="contact">
         <p>IDENTITE</p>
