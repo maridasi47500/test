@@ -21,7 +21,7 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="formations.html">Formations</a>
             </li>
             <li class="nav-item">
@@ -41,7 +41,18 @@
       </nav>
     </header>
     <section>
-some tyext
+      <div>
+        <?php
+            if(isset($_POST['nom']))
+            {
+              echo "<div>";
+              $name = $_POST["name"];
+              echo "</br>";
+              echo "Nom :</br></br>", $name;
+              echo "</div>";
+            }    
+        ?>
+      </div>
     </section>
     <footer>
       <div style="background-color:#515151;" class='page-section footer-section bg-grey-800'>
