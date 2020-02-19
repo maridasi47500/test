@@ -52,6 +52,7 @@
               echo "</div>";
             }    
         ?>
+        <a href="participants.php">Retour à la liste des participants</a>
       </div>
     </section>
     <footer>
