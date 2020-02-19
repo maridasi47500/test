@@ -30,7 +30,7 @@
             <li class="nav-item">
               <a class="nav-link" href="carte.html">Carte</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="participants.php">Participants</a>
             </li>
             <li class="nav-item active">
