@@ -1,0 +1,48 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.cd-dropdown-wrapper div, .cd-dropdown-wrapper span, .cd-dropdown-wrapper applet, .cd-dropdown-wrapper object, .cd-dropdown-wrapper iframe,
+.cd-dropdown-wrapper h1, .cd-dropdown-wrapper h2, .cd-dropdown-wrapper h3, .cd-dropdown-wrapper h4, .cd-dropdown-wrapper h5, .cd-dropdown-wrapper h6, .cd-dropdown-wrapper p, .cd-dropdown-wrapper blockquote, .cd-dropdown-wrapper pre,
+ .cd-dropdown-wrapper abbr, .cd-dropdown-wrapper acronym, .cd-dropdown-wrapper address, .cd-dropdown-wrapper big, .cd-dropdown-wrapper cite, .cd-dropdown-wrapper code,
+.cd-dropdown-wrapper del,.cd-dropdown-wrapper dfn,.cd-dropdown-wrapper em, .cd-dropdown-wrapper img,.cd-dropdown-wrapper ins,.cd-dropdown-wrapper kbd,.cd-dropdown-wrapper q,.cd-dropdown-wrapper s,.cd-dropdown-wrapper samp, .cd-dropdown-wrapper small, .cd-dropdown-wrapper strike, .cd-dropdown-wrapper strong, .cd-dropdown-wrapper sub, .cd-dropdown-wrapper sup, .cd-dropdown-wrapper tt, .cd-dropdown-wrapper var,
+ .cd-dropdown-wrapper b, .cd-dropdown-wrapper u, .cd-dropdown-wrapper i, .cd-dropdown-wrapper center,
+.cd-dropdown-wrapper dl, .cd-dropdown-wrapper dt, .cd-dropdown-wrapper dd, .cd-dropdown-wrapper ol, .cd-dropdown-wrapper ul, .cd-dropdown-wrapper li, .cd-dropdown-wrapper fieldset, .cd-dropdown-wrapper form, .cd-dropdown-wrapper label, .cd-dropdown-wrapper legend,
+ .cd-dropdown-wrapper table, .cd-dropdown-wrapper caption, .cd-dropdown-wrapper tbody, .cd-dropdown-wrapper tfoot,  .cd-dropdown-wrapper thead, .cd-dropdown-wrapper tr, .cd-dropdown-wrapper th, .cd-dropdown-wrapper td,
+.cd-dropdown-wrapper article, .cd-dropdown-wrapper aside, .cd-dropdown-wrapper canvas, .cd-dropdown-wrapper details, .cd-dropdown-wrapper embed, .cd-dropdown-wrapper figure, .cd-dropdown-wrapper figcaption, .cd-dropdown-wrapper footer, .cd-dropdown-wrapper header, .cd-dropdown-wrapper hgroup, 
+.cd-dropdown-wrapper menu, .cd-dropdown-wrapper nav, .cd-dropdown-wrapper output, .cd-dropdown-wrapper ruby, .cd-dropdown-wrapper section, .cd-dropdown-wrapper summary,
+.cd-dropdown-wrapper time, .cd-dropdown-wrapper mark, .cd-dropdown-wrapper audio, .cd-dropdown-wrapper video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+.cd-dropdown-wrapper article, .cd-dropdown-wrapper aside, .cd-dropdown-wrapper details, .cd-dropdown-wrapper figcaption, .cd-dropdown-wrapper figure, .cd-dropdown-wrapper footer,
+.cd-dropdown-wrapper header, .cd-dropdown-wrapper hgroup, .cd-dropdown-wrapper menu, .cd-dropdown-wrapper nav, .cd-dropdown-wrapper section, .cd-dropdown-wrapper main {
+	display: block;
+}
+
+
+
+
+.cd-dropdown-wrapper ol,.cd-dropdown-wrapper ul {
+	list-style: none;
+}.cd-dropdown-wrapper blockquote,.cd-dropdown-wrapper q {
+	quotes: none;
+}
+.cd-dropdown-wrapper blockquote:before, .cd-dropdown-wrapper blockquote:after,
+.cd-dropdown-wrapper q:before, .cd-dropdown-wrapper q:after {
+	content: '';
+	content: none;
+}
+.cd-dropdown-wrapper table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+

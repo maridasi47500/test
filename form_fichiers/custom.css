@@ -1,0 +1,1215 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 août 2016, 16:49:18
+    Author     : patricktreve
+*/
+
+.bg-landing {
+
+  background: url('../images/sourire-femme.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
+
+.bg-landing .cat-1 {
+  background: url('../images/sourire-femme.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.image-lieu {
+  background: url('../images/proximite.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-restaurant {
+  background: url('../images/restauration-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-europe {
+  background: url('../images/europe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-fa-language {
+  background: url('../images/transversales.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-md-face-unlock {
+  background: url('../images/evolution.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-fa-laptop {
+  background: url('../images/services.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-fa-star {
+  background: url('../images/restauration-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-fa-user-md {
+  background: url('../images/servicespersonne.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-md-business {
+  background: url('../images/construction.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-fa-wrench {
+  background: url('../images/industrie.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-md-invert-colors-on {
+  background: url('../images/hygiene.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-fa-truck {
+  background: url('../images/transport.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-fa-warning {
+  background: url('../images/securite.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-fa-group {
+  background: url('../images/rh.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-fa-check-square-o , .cat-image-fa-check-square, .cat-image-vae {
+  background: url('../images/vae.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-fa-lightbulb-o{
+  background: url('../images/transition.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-md-palette{
+  background: url('../images/artisanat.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-md-child{
+  background: url('../images/servicespersonne.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+/***************NEW PICTURES**************************/
+
+
+.cat-image-prepa{
+  background: url('../images/transversales.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-langues{
+  background: url('../images/langues.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-socle{
+  background: url('../images/transversales.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-niveau{
+  background: url('../images/transversales.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-bureautique{
+  background: url('../images/bureautique.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-graphisme{
+  background: url('../images/graphisme.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-comptabilite{
+  background: url('../images/comptabilite.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-bilan{
+  background: url('../images/transversales.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-admin{
+  background: url('../images/transversales.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-banque{
+  background: url('../images/transversales.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-programmation{
+  background: url('../images/programmation.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+
+.cat-image-multimedia{
+  background: url('../images/multimedia.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+
+.cat-image-commerce {
+  background: url('../images/commerce.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-serviceauto {
+  background: url('../images/serviceauto.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-coiffure {
+  background: url('../images/coiffure.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-sport {
+  background: url('../images/sport.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-cuisine {
+  background: url('../images/restauration-1.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-alimentation {
+  background: url('../images/alimentation.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-hebergement {
+  background: url('../images/hebergement.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-tourisme{
+  background: url('../images/tourisme.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-bar{
+  background: url('../images/bar.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-sante{
+  background: url('../images/servicespersonne.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-sap{
+  background: url('../images/servicespersonne.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-ergonomie{
+  background: url('../images/ergonomie.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-optique{
+  background: url('../images/optique.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-artisanat{
+  background: url('../images/artisanat.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-construction{
+  background: url('../images/construction.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-grosoeuvre{
+  background: url('../images/construction.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-travauxpublics{
+  background: url('../images/travauxpublics.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-secondoeuvre{
+  background: url('../images/finitions.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-durable{
+  background: url('../images/transition.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-auto{
+  background: url('../images/industrie.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-chimie {
+  background: url('../images/chimie.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-chimieindustrie {
+  background: url('../images/chimie.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-electricite {
+  background: url('../images/industrie.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-maintindustrielle {
+  background: url('../images/industrie.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-metaux {
+  background: url('../images/metaux.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-navale {
+  background: url('../images/navale.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-proprete {
+  background: url('../images/hygiene.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-transport{
+  background: url('../images/transport.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-securite{
+  background: url('../images/securite.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-risquespro{
+  background: url('../images/ergonomie.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-habilitations{
+  background: url('../images/habilitation.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-conseilorg{
+  background: url('../images/conseilorg.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-rh {
+  background: url('../images/rh.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-ingformation {
+  background: url('../images/rh.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-information {
+  background: url('../images/vae.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-accvaeeduc {
+  background: url('../images/vae2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-accvae {
+  background: url('../images/vae2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+
+
+.cat-image-enfance{
+  background: url('../images/enfance.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-electrotechnique{
+  background: url('../images/electricite.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-habilitationselec{
+  background: url('../images/habilitation.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-domotique{
+  background: url('../images/domotique.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-modelisation {
+  background: url('../images/modelisation.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.cat-image-professionalisation {
+  background: url('../images/rh.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.cat-image-tuteurs {
+  background: url('../images/rh.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+ /****************************************************************************************************************/
+ /****************************************************************************************************************/
+ /****************************************************************************************************************/
+ /****************************************************************************************************************/
+ /****************************************************************************************************************/
+ 
+
+
+.cat-image-cfa{
+  background: url('../images/cfa-hand.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+
+
+
+.cat-image-conseil {
+  background: url('../images/conseilorg.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+.bg-landing .cat-1 .minpic {
+  background: url('../images/clea.jpg');
+  
+    
+}
+
+
+.cover.overlay.landing {
+  display: table;
+  margin: 0;
+  height: 100%;
+  min-height: 900px;
+  width: 100%;
+  background: url('../../images/visuel-couv-web.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.cover.overlay.landingcfa {
+  display: table;
+  margin: 0;
+  height: 100%;
+  min-height: 1150px;
+  width: 100%;
+  background: url('../../images/cfa-visuel.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cover.overlay.landingifas {
+  display: table;
+  margin: 0;
+  height: 100%;
+  min-height: 650px;
+  width: 100%;
+  background: url('../../images/servicespersonne.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.certificateIco {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+     background: url('../images/certificat.png') no-repeat;
+    background-size: contain;
+    
+}
+
+.logo-display {
+    display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  
+    height: 40px;
+  width: 130px;
+    background-image: url('../images/SIGLE-ACA.jpg');
+  background-size: contain;
+}
+
+.logo-displayvar {
+    display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  
+    height: 40px;
+  width: 130px;
+      background-image: url('../images/SIGLE-ACA.jpg');
+  background-size: contain;
+}
+.logo-displayca {
+    display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  
+    height: 40px;
+  width: 130px;
+  background-image: url('../images/SIGLE-ACA.jpg');
+  background-size: contain;
+}
+.logo-displaygip {
+    display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  
+    height: 40px;
+  width: 130px;
+      background-image: url('../images/SIGLE-ACA.jpg');
+  background-size: contain;
+}
+ .logo-displayth {
+    display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  
+    height: 40px;
+  width: 130px;
+     background-image: url('../images/SIGLE-ACA.jpg');
+  background-size: contain;
+} 
+
+
+
+.panel-prim {
+  border-color: #ff9933;
+}
+.panel-prim > .panel-heading {
+  color: #ffffff;
+  background-color: #ff9933;
+  border-color: #ff9933;
+}
+.panel-prim > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ff9933;
+}
+.panel-prim > .panel-heading .badge {
+  color: #ff9933;
+  background-color: #ffffff;
+}
+.panel-prim > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ff9933;
+}
+
+
+
+
+.login {
+  position: initial;
+/*  background: #DEDEDE;*/
+  padding-top: 0;
+     
+      display: block;
+      height: 650px;
+}
+.login #content {
+  max-width: 760px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.login .lock-container {
+  margin: auto;
+  width: 300px;
+}
+@media (min-width: 480px) {
+  .login .lock-container {
+    bottom: 0;
+    height: 650px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+  }
+}
+.login .lock-container .panel {
+  max-width: 300px !important;
+  background: #fff;
+  position: relative;
+}
+.login .lock-container .panel img {
+  margin: 20px 0 10px;
+}
+.login .lock-container .panel .forgot-password {
+  margin: 10px 0 0;
+  font-weight: 500;
+  color: #42a5f5;
+  display: block;
+}
+
+
+.btn .btn-orange-500:active {
+    color: #ffffff;
+  background-color: #cc7a00;
+  border-color: #c27400;
+    
+}
+
+
+.delTrash {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 8px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.delTrash:focus,
+.delTrash:active:focus,
+.delTrash.active:focus,
+.delTrash.focus,
+.delTrash:active.focus,
+.delTrash.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.delTrash:hover,
+.delTrash:focus,
+.delTrash.focus {
+  color: #444444;
+  text-decoration: none;
+}
+.delTrash:active,
+.delTrash.active {
+  outline: 0;
+  background-image: none;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.delTrash.disabled,
+.delTrash[disabled],
+fieldset[disabled] .delTrash {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  box-shadow: none;
+}
+
+
+ .fa-fa {
+  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+
+
+.headLabel {
+    font-size: 120%!important;
+    text-transform: uppercase;
+    color:#42a5f5;
+    font-weight: bold!important;
+    
+}
+.headLabelError {
+    font-size: 120%!important;
+    text-transform: uppercase;
+    color:#C00;
+    font-weight: bold!important;
+    
+}
+.fontbold {
+    
+    font-weight: bold!important; 
+}
+.zone {
+    font-size: 120%!important;
+    text-transform: uppercase;
+     color:#ff9933!important;
+    font-weight: normal;
+  
+    
+    
+}
+/*.delFile:after {
+  
+  
+  
+  font-family: "FontAwesome"; 
+  content: "\f002";
+  color: #888;
+}*/
+
+.adjustCarouselImg img {
+  width: auto;
+  height: 200px;
+  max-height: 200px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carouselSpecial {
+  max-height: 100%;
+  max-height: 200px;
+   min-height:  100%;
+    min-height:  200px;
+  margin-bottom: 10px;
+  height:auto;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* Declare heights because of positioning of img element */
+.carouselSpecial .item {
+  max-height: 100%;
+  max-height: 200px;
+  min-height:  100%;
+    min-height:  200px;
+  background-color: #777;
+}
+.carouselSpecial .carousel-inner > .item > img {
+ /*  position: absolute;*/
+  top: 0;
+  left: 0;
+  min-width: 40%;
+  max-width: 100%;
+  max-height: 200px;
+  min-height:  40%;
+    min-height:  200px;
+  width: auto;
+  margin-right:auto;
+  margin-left:auto;
+  height:auto;
+
+}
+
+
+.panel-job {
+    border-radius: 7px;
+     border-top: 2px solid #e2e9e6;
+      border-left: 2px solid #e2e9e6;
+  border-bottom: 1px solid #e2e9e6;
+  border-right:  1px solid #e2e9e6;
+    
+    
+}
+
+
+    .selected  {
+       color: #ff9933!important;
+       font-weight: bold!important;
+/*       text-decoration: underline!important;*/
+       
+        
+    }
+    
+    
+    
+    
+    
+    .myparallax { 
+    /* The image used */
+    background-image: url("../../images/GRETA-1150-300.jpg");
+background-color: #fff;
+    /* Set a specific height */
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center center;
+
+height: 300px;background-size: 100%;
+    
+}
+   .myparallaxcfa { 
+    /* The image used */
+    background-image: url("../../images/CFA-1150-300.jpg");
+background-color: #fff;
+    /* Set a specific height */
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center center;
+
+height: 300px;background-size: 100%;
+    
+}
+
+.myparallaxgip { 
+    /* The image used */
+    background-image: url("../../images/GIP-1150-300.jpg");
+background-color: #fff;
+    /* Set a specific height */
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center center; 
+
+height: 300px;background-size: 100%;
+    
+}
+
+.myparallaxlink { 
+    /* The image used */
+    background-image: url("../../images/LINK-1150-300.jpg");
+background-color: #fff;
+    /* Set a specific height */
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center center; 
+
+height: 300px;background-size: 100%;
+    
+}
+.myparallaxvae { 
+    /* The image used */
+    background-image: url("../../images/VAE-1150-300.jpg");
+background-color: #fff;
+    /* Set a specific height */
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center center; 
+
+height: 300px;background-size: 100%;
+    
+}
+
+
+.financementeurope {
+    background-image: url("../../images/visuel-couv-web-finance-europe.jpg"); 
+  
+    
+}
+
+.pricing-body {
+  width: 100px;
+  height: 100px;
+  margin: 25px auto;
+  border: 4px solid #e2e9e6;
+  border-radius: 0%;
+  display: table;
+  background-color: #ffffff;
+}
+
+/*    .selected:before  {
+      font-family: FontAwesome;
+   content: " \f0da";
+       
+       f0d7  caret down 
+       
+        
+    }*/
+
+/*    .selected:after  {
+      font-family: FontAwesome;
+   content: " \f0d9";
+          
+        
+    }
+    */
+    
+   
+   
+  .modal-dialog {width:880px;}
+    .thumbnail { border: 0px;} 
+    
+    
+    .text-subhead-web {
+        
+  font-size: 1.50rem;
+  font-weight: 400;
+  line-height: 1.84rem;
+}
+     .text-subhead-web-headline {
+         padding-top: 15px;
+  font-size: 1.10rem;
+  font-weight: 400;
+  line-height: 1.44rem;
+} 
+.page-section-web {
+   padding: 15px;
+  max-width: 700px;
+  display: inline-block; 
+    
+}
+.height-60 {
+  height: 60px !important;
+}
+
+
+.back-to-top {
+ 
+background: none;
+ 
+margin: 0;
+ 
+position: fixed;
+ 
+bottom: 0;
+ 
+right: 0;
+ 
+width: 70px;
+ 
+height: 70px;
+ 
+z-index: 100;
+ 
+display: none;
+ 
+text-decoration: none;
+ 
+color: #ffffff;
+ 
+background-color: #ff9933;
+padding:  10px;
+ 
+}
+ 
+  
+ 
+.back-to-top i {
+ 
+  font-size: 60px;
+ 
+}
+
+
+.bg-opacity-white {
+    
+    background-color:rgba(255,255,255,0.7);
+/*    background: #FFF;
+  
+  filter: alpha(opacity=60);
+  
+  -moz-opacity: 0.6;
+   
+  opacity: 0.6; */
+}
+
+
+input[type="checkbox"] + label::before{
+
+    border: 2px solid #aaa;
+   
+  
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.drop-content {
+    position: absolute;
+    background-color: green;
+    min-width: 350px;
+   padding: 15px;
+   z-index: 1;
+   display: none; 
+}
+
+.table-pricing-4 {
+  width: 100%; 
+  text-align: center;
+  
+}
+
+.table-pricing-4 > ul > li {
+  list-style-type: none;
+  background: #ffffff;
+  padding: 0;
+  margin-right: 0px;  
+  border-radius: 2px;
+  border: 0px solid #e2e9e6;
+}
+.table-pricing-4 > ul > li > .innerAll {
+  padding: 40px 30px;
+}
+.table-pricing-4 > ul > li > .innerAll.half {
+  padding: 20px 15px;
+}
+.table-pricing-4 > ul > li .pricing-body {
+  width: 140px;
+  height: 140px;
+  margin: 25px auto;
+  border: 4px solid #e2e9e6;
+  border-radius: 100%;
+  display: table;
+  background-color: #ffffff;
+}
+.table-pricing-4 > ul > li .pricing-body .price {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: middle;
+  display: table-cell;
+  line-height: 20px;
+  color: #212121;
+}
+.table-pricing-4 > ul > li .pricing-body .price .figure {
+  display: block;
+}
+.table-pricing-4 > ul > li .pricing-body .price .term {
+  font-size: 11px;
+  font-weight: normal;
+}
+.table-pricing-4 > ul > li .pricing-features {
+  padding: 0px 0;
+}
+.table-pricing-4 > ul > li .pricing-features ul {
+  padding: 0;
+}
+.table-pricing-4 > ul > li .pricing-features ul li {
+  list-style-type: none;
+}
+.table-pricing-4 > ul > li .pricing-footer {
+  padding: 10px 0;
+}
+@media (min-width: 992px) {
+  .table-pricing-4 > ul > li.active {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+    z-index: 2;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+  }
+}
+.table-pricing-4 > ul > li.active .pricing-body {
+  border-color: #ddeffd;
+  background-color: #42a5f5;
+}
+.table-pricing-4 > ul > li.active .pricing-body .price {
+  color: #ffffff;
+}
+@media (min-width: 992px) {
+  .table-pricing-4 {
+    margin: 40px auto !important;
+  }
+  .table-pricing-4.margin-half {
+    margin: 20px auto !important;
+  }
+}
+
+
+.globalsearch  input::placeholder {
+    color: #ff9933;
+    font-weight: bold;
+}

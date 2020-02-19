@@ -1,0 +1,30 @@
+/* Tuto Alsacreations : Faites bonne impression - Feuille styles css imprimante */
+
+
+
+@page {
+  size: A4;
+}
+
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+  
+ 
+}
+
+@media print {
+    
+    -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+    color-adjust: exact !important;  /*Firefox*/
+}
