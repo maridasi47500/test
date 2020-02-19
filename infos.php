@@ -43,7 +43,7 @@
     <section>
       <div>
         <?php
-            if(isset($_POST['nom']))
+            if(isset($_POST['name']))
             {
               echo "<div>";
               $name = $_POST["name"];
