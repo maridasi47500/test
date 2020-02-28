@@ -13,16 +13,16 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">GRETA</a>
+      <nav  style="margin-left:20%;margin-right:20%;" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html"><img src="./images/greta.jpg" style="height:50px;" alt="Responsive image"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="formations.html">Formations</a>
+            <li class="nav-item">
+              <a class="nav-link" href="formations.html">Formations en informatique à Toulon</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="faq.html">FAQ</a>
@@ -31,7 +31,7 @@
               <a class="nav-link" href="carte.html">Carte</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="participants.php">Participants</a>
+              <a class="nav-link" href="participants.php">Greta du Var de Toulon</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>
@@ -39,52 +39,292 @@
           </ul>
           </div>
       </nav>
+      <div style="text-align:center;margin:auto; margin-bottom:20px;width:1140px;">
+        <input placeholder="rechercher une formation, une information..." type="text" style="border:2px solid orange;width:100%;"/>
+      </div>
+      <hr>
+      <div >
+        <h1 style="line-height:100px;width:1440px;margin:auto;">Les formations du réseau</h1>
+      </div>
+
     </header>
-    <section>
+    <section >
 
-      <h1>Formations de Numérique, Informatique réseau, Programmation à Toulon</h1>
-      <table class="table">
+      <div class="container-central">
+              <table id="table-formations" class="table-responsive dataTable" role="grid" aria-describedby="table-formations_info" style="width:1440px;margin:auto;" cellspacing="0">
         <thead>
-          <tr class="thead-dark">
-            <th scope="col">#</th>
-            <th scope="col">Structure</th>
-            <th scope="col">Intitulé</th>
-          </tr class="thead-dark">
+            <tr role="row"><th class="sorting" style="width: 4px; max-width: 20px;" tabindex="0" aria-controls="table-formations" rowspan="1" colspan="1" aria-label=": activate to sort column ascending"></th><th class="hidden-xs select-filter sorting_desc" tabindex="0" aria-controls="table-formations" rowspan="1" colspan="1" style="width: 428px;" aria-label=": activate to sort column ascending" aria-sort="descending"><select disabled><option id="numerique" value="Numérique , Informatique réseau, Programmation">Numérique , Informatique réseau, Programmation</option><option value=""></option><option value="Accompagnement VAE Autres certifications">Accompagnement VAE Autres certifications</option><option value="Accompagnement VAE Diplômes professionnels Éducation nationale">Accompagnement VAE Diplômes professionnels Éducation nationale</option><option value="Administration, Gestion comptabilité">Administration, Gestion comptabilité</option><option value="Alimentation">Alimentation</option><option value="Artisanat, Métiers d art">Artisanat, Métiers d art</option><option value="Bar, sommellerie">Bar, sommellerie</option><option value="Bilan de compétences , Orientation, Projet professionnel">Bilan de compétences , Orientation, Projet professionnel</option><option value="Bureautique">Bureautique</option><option value="Bâtiment, Travaux publics">Bâtiment, Travaux publics</option><option value="CAP Petite Enfance">CAP Petite Enfance</option><option value="Chimie">Chimie</option><option value="Coiffure , Esthétique, Mode">Coiffure , Esthétique, Mode</option><option value="Commerce, Vente, Services">Commerce, Vente, Services</option><option value="Formation de tuteurs">Formation de tuteurs</option><option value="Gros oeuvre, construction, chantier">Gros oeuvre, construction, chantier</option><option value="Hébergement">Hébergement</option><option value="Information">Information</option><option value="Ingénierie de formation">Ingénierie de formation</option><option value="Langues, FLE">Langues, FLE</option><option value="Logiciels comptabilité gestion">Logiciels comptabilité gestion</option><option value="Logiciels création graphique">Logiciels création graphique</option><option value="Maintenance industrielle, Automatismes">Maintenance industrielle, Automatismes</option><option value="Multimédia, Images, Internet">Multimédia, Images, Internet</option><option value="Mécanique Automobile, Carrosserie">Mécanique Automobile, Carrosserie</option><option value="Non renseigné">Non renseigné</option><option value="Optique">Optique</option><option value="Propreté, Hygiène">Propreté, Hygiène</option><option value="Protection des biens et des personnes">Protection des biens et des personnes</option><option value="Préparation concours">Préparation concours</option><option value="Ressources humaines, Droit social, Droit du travail, Management">Ressources humaines, Droit social, Droit du travail, Management</option><option value="Restauration, Cuisine">Restauration, Cuisine</option><option value="Santé, Paramédical">Santé, Paramédical</option><option value="Second oeuvre, aménagements, finitions">Second oeuvre, aménagements, finitions</option><option value="Social, Médico-social, SAP">Social, Médico-social, SAP</option><option value="Socle de connaissances et de compétences professionnelles – CléA">Socle de connaissances et de compétences professionnelles – CléA</option><option value="Sport , Loisirs">Sport , Loisirs</option><option value="Tourisme">Tourisme</option><option value="Transport, Logistique">Transport, Logistique</option><option value="Électricité, Électronique, Électrotechnique, Fibre optique">Électricité, Électronique, Électrotechnique, Fibre optique</option><option value="Énergies renouvelables, Développement durable">Énergies renouvelables, Développement durable</option></select></th><th style="vertical-align: top; width: 343px;" class="hidden-xs sorting" tabindex="0" aria-controls="table-formations" rowspan="1" colspan="1" aria-label="Structure: activate to sort column ascending">Structure</th><th style="width:200px; min-width: 200px;" class="sorting" tabindex="0" aria-controls="table-formations" rowspan="1" colspan="1" aria-label="Intitulé: activate to sort column ascending">Intitulé</th><th style="width: 240px; min-width: 150px;" class="select-filter sorting" tabindex="0" aria-controls="table-formations" rowspan="1" colspan="1" aria-label="Lieu: activate to sort column ascending"><select disabled><option value="TOULON">TOULON</option><option value="ANTIBES">ANTIBES</option><option value="ANTIBES JUAN LES PINS">ANTIBES JUAN LES PINS</option><option value="Antibes">Antibes</option><option value="BRIGNOLES">BRIGNOLES</option><option value="Brignoles">Brignoles</option><option value="CAGNES SUR MER">CAGNES SUR MER</option><option value="CANNES">CANNES</option><option value="CANNES LA BOCCA">CANNES LA BOCCA</option><option value="Cannes">Cannes</option><option value="Cannes la Bocca">Cannes la Bocca</option><option value="DRAGUIGNAN">DRAGUIGNAN</option><option value="Draguignan">Draguignan</option><option value="FREJUS">FREJUS</option><option value="Fréjus">Fréjus</option><option value="GASSIN">GASSIN</option><option value="GRASSE">GRASSE</option><option value="Grasse">Grasse</option><option value="HYERES">HYERES</option><option value="LA GARDE">LA GARDE</option><option value="LA SEYNE SUR MER">LA SEYNE SUR MER</option><option value="LE LUC">LE LUC</option><option value="LE MUY">LE MUY</option><option value="La Seyne sur Mer">La Seyne sur Mer</option><option value="Le Muy">Le Muy</option><option value="MENTON">MENTON</option><option value="MOUANS SARTOUX">MOUANS SARTOUX</option><option value="Menton">Menton</option><option value="NICE">NICE</option><option value="Nice">Nice</option><option value="SAINT MAXIMIN LA SAINTE BAUME">SAINT MAXIMIN LA SAINTE BAUME</option><option value="SAINT RAPHAEL">SAINT RAPHAEL</option><option value="SAINT-RAPHAEL">SAINT-RAPHAEL</option><option value="SIX FOURS LES PLAGES">SIX FOURS LES PLAGES</option><option value="Saint Maximin">Saint Maximin</option><option value="Six-Fours-les-Plages">Six-Fours-les-Plages</option><option value="VALBONNE">VALBONNE</option><option value="VILLENEUVE LOUBET">VILLENEUVE LOUBET</option><option value="la Seyne  sur Mer">la Seyne  sur Mer</option></select></th><th class="text-center hidden-xs sorting" tabindex="0" aria-controls="table-formations" rowspan="1" colspan="1" style="width: 63px;" aria-label="Certifiante: activate to sort column ascending">Certifiante</th></tr>
         </thead>
+        <tfoot>
+            <tr><th class="" rowspan="1" colspan="1"></th><th class=" hidden-xs select-filter" rowspan="1" colspan="1"></th><th class="hidden-xs " rowspan="1" colspan="1">Structure</th><th rowspan="1" colspan="1">Intitulé</th><th rowspan="1" colspan="1">Lieu</th><th class=" hidden-xs " rowspan="1" colspan="1">Certifiante</th></tr>
+        </tfoot>
         <tbody>
-          <tr>
-            <th scope="row">2</th>
-            <td>CFA Régional Académie de Nice</td>
-            <td><span class="badge badge-secondary">Certifiante</span> BTS Services Informatiques aux Organisations option Solutions logicielles et applications métiers (SLAM)</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Greta Côte d'Azur</td>
-            <td>Community Manager</td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>Greta du Var</td>
-            <td class="formation-choisie">Développement et Administration Systèmes d’Information Expert (DASIE) </td>
-          </tr>
-          <tr>
-            <th scope="row">6</th>
-            <td>Greta du Var</td>
-            <td class="autre-formation">DEVELOPPEMENT PHP MYSQL Symfony Angular JS Node JS MySQL </td>
-          </tr>
-          <tr>
-            <th scope="row">8</th>
-            <td>Greta du Var</td>
-            <td><span class="badge badge-secondary">Certifiante</span> Titre Professionnel Technicien Supérieur Système et Réseaux (TSSR)</td>
-          </tr>
-          <tr>
-            <th scope="row">9</th>
-            <td>Greta du Var</td>
-            <td>Chargé de référencement WEB</td>
-          </tr>
+                                                                                                                                                                                                                                                                                                                                                                    
+                <tr role="row" class="odd">
+                    <!--                                                        <td class="<php echo $formation->valid == FALSE ? 'fa fa-warning fa-2x text-red-500': 'fa fa-check-circle-o fa-2x text-success' ; ?>" >  </td>
+                   -->
+                    
+                   
+                   
+<!--                                                        <td class="hide" >-->
+<!--                                                          <php if($formation->valid == 0 ){?>-->
+<!--                                                            <i class="fa fa-warning text-red-500"> </i>-->
+                        
+<!--                                                          <php };?>-->
+                        
+                      
+<!--                                                        </td>-->
+                     
+<td style="font-size:1.5em;" class=""><i class=" fa  fa-laptop fa-2x  text-yellow-700 "></i></td>
+                    <td class="hidden-xs sorting_1">
+                        Numérique , Informatique réseau, Programmation                                                        </td>
+                    
+                    <td class="hidden-xs text-left  ">
+                          <span class="label  label-primary">
+                                <small>                                                                 
+                                    CFA Régional Académie de Nice                                                                    </small>
+                            </span>
+                        
+                                                                                
+                        </td>
+                        <td><a href="#"><strong>BTS Services Informatiques aux Organisations option Solutions logicielles et applications métiers (SLAM)</strong></a></td>
+                                                                                     
+                        
+                          <td style="color: #ff9933;font-weight: bold;" class="">
+          
+                                   Toulon 
+                                  
+                                  
+                                  
+</td> 
+                   
+                   
+                                                                             <td class="text-center hidden-xs    certif ">                                                             <i class=" fa fa-check-circle fa-2x text-green-500"></i>
+                        
+                                                                                
+                       </td>
+                                                                               
+                </tr><tr role="row" class="even">
+                    
+<!--                                                        <td class="<php echo $formation->valid == FALSE ? 'fa fa-warning fa-2x text-red-500': 'fa fa-check-circle-o fa-2x text-success' ; ?>" >  </td>
+                   -->
+                    
+                   
+                   
+<!--                                                        <td class="hide" >-->
+<!--                                                          <php if($formation->valid == 0 ){?>-->
+<!--                                                            <i class="fa fa-warning text-red-500"> </i>-->
+                        
+<!--                                                          <php };?>-->
+                        
+                      
+<!--                                                        </td>-->
+                     
+<td style="font-size:1.5em;" class=""><i class=" fa  fa-laptop fa-2x  text-yellow-700 "></i></td>
+                    <td class="hidden-xs sorting_1">
+                        Numérique , Informatique réseau, Programmation                                                        </td>
+                    
+                    <td class="hidden-xs text-left  ">
+                                                                                                                                                <span class="label  label-primary">
+                                <small>                                                                 
+                                    Greta du Var                                                                    </small>
+                            </span>
+                        
+                                                                                
+                        </td>
+                        <td><a href="/formationpage.html?id=941"><strong>Chargé de référencement WEB</strong></a></td>
+                                                                                     
+                        
+                          <td style="color: #ff9933;font-weight: bold;" class="">
+          
+                                   Toulon  
+                                  
+                                  
+                                  
+</td> 
+                   
+                   
+                                                                             <td class="text-center hidden-xs    certif ">                                                              
+                       </td>
+                                                                               
+                </tr><tr role="row" class="odd">
+                    
+<!--                                                        <td class="<php echo $formation->valid == FALSE ? 'fa fa-warning fa-2x text-red-500': 'fa fa-check-circle-o fa-2x text-success' ; ?>" >  </td>
+                   -->
+                    
+                   
+                   
+<!--                                                        <td class="hide" >-->
+<!--                                                          <php if($formation->valid == 0 ){?>-->
+<!--                                                            <i class="fa fa-warning text-red-500"> </i>-->
+                        
+<!--                                                          <php };?>-->
+                        
+                      
+<!--                                                        </td>-->
+                     
+<td style="font-size:1.5em;" class=""><i class=" fa  fa-laptop fa-2x  text-yellow-700 "></i></td>
+                    <td class="hidden-xs sorting_1">
+                        Numérique , Informatique réseau, Programmation                                                        </td>
+                    
+                    <td class="hidden-xs text-left  ">
+                                                                                                                                                <span class="label  label-primary">
+                                <small>                                                                 
+                                    Greta du Var                                                                    </small>
+                            </span>
+                        
+                                                                                
+                        </td>
+                        <td><a href="/formationpage.html?id=939"><strong>Community Manager</strong></a></td>
+                                                                                     
+                        
+                          <td style="color: #ff9933;font-weight: bold;" class="">
+          
+                                   Toulon  
+                                  
+                                  
+                                  
+</td> 
+                   
+                   
+                                                                             <td class="text-center hidden-xs    certif ">                                                              
+                       </td>
+                                                                               
+                </tr><tr role="row" class="even">
+                    
+<!--                                                        <td class="<php echo $formation->valid == FALSE ? 'fa fa-warning fa-2x text-red-500': 'fa fa-check-circle-o fa-2x text-success' ; ?>" >  </td>
+                   -->
+                    
+                   
+                   
+<!--                                                        <td class="hide" >-->
+<!--                                                          <php if($formation->valid == 0 ){?>-->
+<!--                                                            <i class="fa fa-warning text-red-500"> </i>-->
+                        
+<!--                                                          <php };?>-->
+                        
+                      
+<!--                                                        </td>-->
+                     
+<td style="font-size:1.5em;" class=""><i class=" fa  fa-laptop fa-2x  text-yellow-700 "></i></td>
+                    <td class="hidden-xs sorting_1">
+                        Numérique , Informatique réseau, Programmation                                                        </td>
+                    
+                    <td class="hidden-xs text-left  ">
+                                                                                                                                                <span class="label  label-primary">
+                                <small>                                                                 
+                                    Greta du Var                                                                    </small>
+                            </span>
+                        
+                                                                                
+                        </td>
+                        <td><a href="./dasie.html"><strong>Développement et Administration Systèmes d’Information Expert (DASIE)</strong></a></td>
+                                                                                     
+                        
+                          <td style="color: #ff9933;font-weight: bold;" class="">
+          
+                                   Toulon  
+                                  
+                                  
+                                  
+</td> 
+                   
+                   
+                                                                             <td class="text-center hidden-xs    certif ">                                                              
+                       </td>
+                                                                               
+                </tr><tr role="row" class="odd">
+                    
+<!--                                                        <td class="<php echo $formation->valid == FALSE ? 'fa fa-warning fa-2x text-red-500': 'fa fa-check-circle-o fa-2x text-success' ; ?>" >  </td>
+                   -->
+                    
+                   
+                   
+<!--                                                        <td class="hide" >-->
+<!--                                                          <php if($formation->valid == 0 ){?>-->
+<!--                                                            <i class="fa fa-warning text-red-500"> </i>-->
+                        
+<!--                                                          <php };?>-->
+                        
+                      
+<!--                                                        </td>-->
+                     
+<td style="font-size:1.5em;" class=""><i class=" fa  fa-laptop fa-2x  text-yellow-700 "></i></td>
+                    <td class="hidden-xs sorting_1">
+                        Numérique , Informatique réseau, Programmation                                                        </td>
+                    
+                    <td class="hidden-xs text-left  ">
+                                                                                                                                                <span class="label  label-primary">
+                                <small>                                                                 
+                                    Greta du Var                                                                    </small>
+                            </span>
+                        
+                                                                                
+                        </td>
+                        <td><a href="/formationpage.html?id=622"><strong>DEVELOPPEMENT PHP MYSQL Symfony Angular JS  Node JS MySQL</strong></a></td>
+                                                                                     
+                        
+                          <td style="color: #ff9933;font-weight: bold;" class="">
+          
+                                   Toulon 
+                                  
+                                  
+                                  
+</td> 
+                   
+                   
+                                                                             <td class="text-center hidden-xs    certif ">                                                              
+                       </td>
+                                                                               
+                </tr><tr role="row" class="even">
+                    
+<!--                                                        <td class="<php echo $formation->valid == FALSE ? 'fa fa-warning fa-2x text-red-500': 'fa fa-check-circle-o fa-2x text-success' ; ?>" >  </td>
+                   -->
+                    
+                   
+                   
+<!--                                                        <td class="hide" >-->
+<!--                                                          <php if($formation->valid == 0 ){?>-->
+<!--                                                            <i class="fa fa-warning text-red-500"> </i>-->
+                        
+<!--                                                          <php };?>-->
+                        
+                      
+<!--                                                        </td>-->
+                     
+<td style="font-size:1.5em;" class=""><i class=" fa  fa-laptop fa-2x  text-yellow-700 "></i></td>
+                    <td class="hidden-xs sorting_1">
+                        Numérique , Informatique réseau, Programmation                                                        </td>
+                    
+                    <td class="hidden-xs text-left  ">
+                                                                                                                                                <span class="label  label-primary">
+                                <small>                                                                 
+                                    Greta du Var                                                                    </small>
+                            </span>
+                        
+                                                                                
+                        </td>
+                        <td><a href="/formationpage.html?id=938"><strong>Titre  Professionnel Technicien Supérieur Système et Réseaux (TSSR)</strong></a></td>
+                                                                                     
+                        
+                          <td style="color: #ff9933;font-weight: bold;" class="">
+          
+                                   Toulon  
+                                  
+                                  
+                                  
+</td> 
+                   
+                   
+                                                                             <td class="text-center hidden-xs    certif ">                                                             <i class=" fa fa-check-circle fa-2x text-green-500"></i>
+                        
+                                                                                
+                       </td>
+                                                                               
+                </tr></tbody>
+    </table>
 
-        </tbody>
-      </table>
+      </div>
     </section>
     <footer>
       <div style="background-color:#515151;" class='page-section footer-section bg-grey-800'>
@@ -95,8 +335,8 @@
            
   
                 <p class="text-subhead">
-                      Copyright © 2019 DAFPIC - Tous droits réservés DAFPIC - Délégation académique à la formation professionnelle initiale et continue - Rectorat de Nice - 53, ave Cap de Croix - 06181 Nice cedex 2<br>
-                      conception : <a href="#"> wiSign</a>.  | <a href='/mentions.html'> Mentions légales</a>  | <a href='/qualite.html'> Qualité</a> <br> <a href="download/cgv.pdf" target="_blank"> Conditions Générales de Vente :</a>  <a href="download/CONDITIONS GENERALES DE VENTE GRETA COTE D AZUR.pdf" target="_blank"> Greta Côte d'Azur </a> - <a href="download/CONDITIONS GENERALES DE VENTE GRETA DU VAR.pdf" target="_blank"> Greta Du Var </a> - <a href="download/CONDITIONS GENERALES DE VENTE GRETA TOURISME HOTELLERIE.pdf" target="_blank"> Greta Tourisme Hôtellerie </a> - <a href="download/CONDITIONS GENERALES DE VENTE GIP FIPAN.pdf" target="_blank"> GIP FIPAN </a> - <a href="download/CONDITIONS GENERALES DE VENTE GIP FIPAN.pdf" target="_blank"> V.A.E. </a>
+                      Copyright © 2019 DAFPIC - Tous droits réservés DAFPIC - Délégation académique à la formation professionnelle initiale et continue - Rectorat de Nice - 53, ave Cap de Croix - 06181 Nice cedex 2
+                      conception : 
                 </p>
   
   
