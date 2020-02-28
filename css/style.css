@@ -5,8 +5,31 @@
     color:red;
 }
 .autre-formation {
-    color:blue;
+    color:rgba(17, 137, 235, 0.699);
 }
-.col-sm {
+.col {
     border: solid 1px #363333;
+    text-transform:uppercase;
+    text-align:center;
+    /* font-weight:bold; */
+    color:orange;
+    /*font-size:16px; */
+}
+.accueil_lien {
+    font-weight: bold;
+    font-size:24px;
+}
+a {
+    color:rgba(17, 137, 235, 0.699);
+    font-size:18px;
+    font-weight: bold;
+}
+.top_section {
+    background-color: orange;
+    height:50px;
+}
+.container {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
